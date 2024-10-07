@@ -221,7 +221,7 @@ a {
 .footer-content {
     background-color: #171f25;
     height: 60px;
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -232,7 +232,7 @@ a {
 footer {
     
 
-    padding: 20px;
+    padding: 10px;
     margin: 0 auto;
 
 }
@@ -276,4 +276,12 @@ color: #f0f8ff;
 
 .bg-color-black {
     background-color: #171f25;
+}
+.flex-container-2 {
+    display: flex;
+    margin: 0 auto;
+
+    width: 100%;
+
+
 }
