@@ -190,7 +190,15 @@ a {
 
 .big-section {
     padding: 20px;
+    text-align: center;
 
+}
+
+.dwld-botton {
+    background-color: #195b96;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 20px auto;
 }
 
 .x2 {
@@ -198,7 +206,10 @@ a {
 }
 
 .bg-green {
-    background-color: green;
+   background-image: url(../img/item4-big.svg);
+   background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .collum {
