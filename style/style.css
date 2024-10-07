@@ -19,8 +19,11 @@
 
     /* Debug */
 
-    border: 1px dotted blue;
 
+
+}
+.white {
+    color: #f0f8ff;
 }
 
 
@@ -31,22 +34,30 @@
 /* Header */
 
 header {
-    background-color: #e29898;
+    background-color: #315be6;
     padding: 20px;
 
-    /* debug */ 
+    /* debug */
 }
+
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
+
 .login {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 20px auto;
+
+
 }
 
 .nav-bar {
@@ -57,18 +68,22 @@ header {
 .nav-list {
     display: flex;
     flex-direction: row;
+    
 }
 
 li {
     display: inline;
-
     list-style: none;
+    padding-left: 5px;
+    
+
 }
 
 /* main */
 
 .first {
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     height: 300px;
     padding: 20px;
 }
@@ -78,16 +93,38 @@ li {
     max-width: 1100px;
     margin: 0 auto;
     display: flex;
-    min-height: 100%;
-
-
-    /* Debug */
-
-    background-color: #e02cc8;
-    border: 1px dotted rgb(17, 6, 13);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 
 }
+
+.first-txt {
+    padding: 2opx;
+    text-align: center;
+}
+
+
+a {
+    padding: 5px;
+}
+
+.scarica {
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.apri {
+    background-color: #080c0f;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+/* seconda sezione  */
 
 .second,
 .four {
@@ -106,8 +143,7 @@ li {
 
 .flex-1 {
     flex: 1;
-    background-color: #25246d;
-    border: 1px dotted red;
+
     padding: 10px;
 
 
@@ -117,8 +153,7 @@ li {
 
 .flex-2 {
     flex: 2;
-    background-color: #bb7c33;
-    border: 1px dotted yellow;
+
     padding: 10px;
 
 }
